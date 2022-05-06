@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginPage test">
+  <test name="MyLoginPage">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="username" value="mngr402287"/>
+  <parameter name="password" value="erunytu"/>
+  <classes>
+  	<class name="myPackage1.MyLogin"/>
+  </classes>
+  </test>
+</suite>
